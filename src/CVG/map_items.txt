@@ -1,0 +1,21 @@
+! comments
+! 0 = dirt
+! 1 = stone
+! 2 = water
+! 3 = tree
+! -----------
+! Items
+! 4 = house Left
+! 5 = house right
+! 6 = grass
+! 7 = door
+! 8 = house top left
+! 9 = house top right
+! 10 = house top
+
+3 3 3 3 - 3 - 3
+3 3 3 8 10 9
+- - - 4 7,door1,room2 5
+- - - 
+- - - - - - - - - - 
+
