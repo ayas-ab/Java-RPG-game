@@ -18,13 +18,11 @@ import java.util.Scanner;
 public class Map {
 
     public Map() throws IOException {
-       // loadMap("C:\\Users\\Ayas\\Documents\\NetBeansProjects\\CivGame\\src\\CVG\\map_solid.txt");
         
         
        this.loadMap(new File("src/CVG/map_solid.txt").getAbsolutePath());
        this.loadMap(new File("src/CVG/map_items.txt").getAbsolutePath());
 
-        //loadMap("C:\\Users\\Ayas\\Documents\\NetBeansProjects\\CivGame\\src\\CVG\\map_items.txt");
 
     }
 
